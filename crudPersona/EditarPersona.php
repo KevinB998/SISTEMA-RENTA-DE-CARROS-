@@ -65,6 +65,7 @@ if ($fila = mysqli_fetch_assoc($resultado)) {
                     text-shadow: 1px 1px;
                     font-size: 25px;
                     text-align: justify;
+                    text-decoration: line-through;
                 }
             </style>
             <div class="topcorner"> <a href="../crudPersona/Logout.php" >Logout</a> </div>
