@@ -45,10 +45,11 @@ $var = (!empty($_GET['id'])) ? $_GET['id'] : 0;
         <style type="text/css">
             .topcorner{
                 position: absolute;
-                top:0;
-                right:0;
+                top: 1;
+                right:1;
                 text-shadow: 1px 1px;
                 font-size: 25px;
+                text-align: justify;
             }
         </style>
         <div class="topcorner"> <a href="../crudPersona/Logout.php" >Logout</a> </div>
